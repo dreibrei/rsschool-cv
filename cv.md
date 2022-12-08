@@ -12,3 +12,5 @@ Learning JS would help me to see my future projects to their fullest potential.
   * Willing to take responsibilities
   * Creative with low resources
   * Diligent and determined
+
+## Skills and Proficiency: ##
