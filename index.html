@@ -1,10 +1,86 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>CV Project</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1.0">
+    <title>CV</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/assets/favicon.ico">
 </head>
 <body>
-   <p>CV#2. HTML, CSS & Git Basics</p>
+    <header class="header">
+        <div class="container-header-footer">
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li><a href="#intro" class="nav-link">Introduction</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#edu" class="nav-link">Education</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container-side">
+            <section class="section">
+                <img src="assets/img/ava.jpg" style="width: 100%;" alt="Profile picture">
+                <h1>Andrey Kuzmin</h1>
+            </section>
+            <section class="section" id="contacts">
+                <h2>Contacts</h2>
+                <ul>
+                    <li><span class="text-bold">Phone number:</span> +79013620579</li>
+                    <li><span class="text-bold">E-mail:</span> dreibradobrei@gmail.com</li>
+                </ul>
+            </section>
+        </div>  
+
+        <div class="container"> 
+            <section class="section" id="intro">
+                <h2>Introduction</h2>
+                <p>Although I don't have any experience of working in IT, I have a good knowledge and basic structural understanding of versatile work fields and industries.
+                    I spent several years living in China and US, so I'm used to communicating with people of different cultures in different environments.
+                    Learning JS would help me to see my future projects to their fullest potential.</p>
+                <h3>Applicable qualities:</h3>
+                <ul>
+                    <li>Adaptability and versatility</li>
+                    <li>Willing to take responsibilities</li>
+                    <li>Creative with low resources</li>
+                    <li>Diligent and determined</li>
+                </ul>
+            </section>
+            <section class="section" id="skills">
+                <h2>Skills and Courses</h2>
+                <ul>
+                    <li>Action Script basic</li>
+                    <li>CodeBasics HTML</li>
+                    <li>CodeBasics CSS</li>
+                </ul>
+            </section>
+            <section class="section" id="edu">
+                <h2>Education and Language</h2>
+                <ul>
+                    <li>Psyholgist. GAUGN, Russia, Moscow, 2012</li>
+                    <li>English - Fluent</li>
+                    <li>Korean - Beginner</li>
+                </ul>
+            </section>
+        </div>
+        
+    </main>
+
+    <footer class="footer">
+        <div class="container-header-footer">
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="https://github.com/dreibrei" class="nav-link">My GitHub</a></li>
+                    <li><img src="assets/img/rs_school_js.svg" alt="RS Logo"><a href="https://rs.school/js/" class="nav-link">RS School</a></li>
+                    <li class="nav-link">2022</li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
 </body>
 </html>
